@@ -27,3 +27,7 @@ topics:
   - name: AWS
     web_url: https://aws.amazon.com/jp/
     image_url: https://amazonwebservices.gallerycdn.vsassets.io/extensions/amazonwebservices/aws-vsts-tools/1.1.8/1541109517627/images/logo.png
+
+  - name: Docker
+    web_url: https://www.docker.com/
+    image_url: https://www.docker.com/sites/default/files/social/docker_facebook_share.png
