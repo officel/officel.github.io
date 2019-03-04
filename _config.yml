@@ -31,3 +31,7 @@ topics:
   - name: Docker
     web_url: https://www.docker.com/
     image_url: https://www.docker.com/sites/default/files/social/docker_facebook_share.png
+
+  - name: Kubernetes
+    web_url: https://kubernetes.io/
+    image_url: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
