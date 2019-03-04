@@ -28,6 +28,10 @@ topics:
     web_url: https://aws.amazon.com/jp/
     image_url: https://amazonwebservices.gallerycdn.vsassets.io/extensions/amazonwebservices/aws-vsts-tools/1.1.8/1541109517627/images/logo.png
 
+  - name: GCP
+    web_url: https://cloud.google.com/?hl=ja
+    image_url: /assets/gcp.png
+
   - name: Docker
     web_url: https://www.docker.com/
     image_url: https://www.docker.com/sites/default/files/social/docker_facebook_share.png
