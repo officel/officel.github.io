@@ -7,7 +7,7 @@ published: true
 （まだ自分には来てなくて、同僚のリポジトリを借りてる）
 watch event を試してみたのでメモ。
 
-
+{% raw %}
 ```
 workflow "watch" {
   on = "watch"
@@ -16,13 +16,15 @@ workflow "watch" {
 
 action "GitHub Action for Slack" {
   uses = "Ilshidur/action-slack@88b36649f596e200db270dc72728c6b3ac8bc5bd"
-  args = "Action called : \{\{ GITHUB_ACTION }}"
+  args = "Action called : {{ GITHUB_ACTION }}"
   env = {
     SLACK_CHANNEL = "githubactionlog"
   }
   secrets = ["SLACK_WEBHOOK"]
 }
 ```
+{% endraw %}
+
 
 `on = "watch"` で [watch](https://developer.github.com/v3/activity/events/types/#watchevent) イベントが拾える。
 
