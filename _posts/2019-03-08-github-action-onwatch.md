@@ -16,7 +16,7 @@ workflow "watch" {
 
 action "GitHub Action for Slack" {
   uses = "Ilshidur/action-slack@88b36649f596e200db270dc72728c6b3ac8bc5bd"
-  args = "Action called : {{ GITHUB_ACTION }}"
+  args = "Action called : \{\{ GITHUB_ACTION }}"
   env = {
     SLACK_CHANNEL = "githubactionlog"
   }
