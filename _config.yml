@@ -43,3 +43,5 @@ topics:
   - name: DataDog
     web_url: https://www.datadoghq.com/
     image_url: https://datadog-prod.imgix.net/img/press-kit-11.png
+
+google_analytics: "UA-117659965-1"
