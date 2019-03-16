@@ -69,3 +69,5 @@ topics:
     image_url: https://datadog-prod.imgix.net/img/press-kit-11.png
 
 google_analytics: "UA-117659965-1"
+markdown: kramdown
+highlighter: rouge
